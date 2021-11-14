@@ -1,0 +1,27 @@
+{
+    "name": "@rosinfo.tech/eslint-config-import",
+    "version": "0.0.1",
+    "access": "public",
+    "main": "index.js",
+    "publishConfig": {
+        "access": "public"
+    },
+    "keywords": [
+        "eslint",
+        "eslintconfig",
+        "config",
+        "javascript",
+        "styleguide",
+        "es2015",
+        "es2016",
+        "es2017",
+        "es2018",
+        "rosinfotech"
+    ],
+    "dependencies": {
+        "eslint-plugin-import": "^2.25.2"
+    },
+    "peerDependencies": {
+        "eslint": ">= 3"
+    }
+}
