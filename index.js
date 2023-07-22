@@ -65,7 +65,7 @@ module.exports = {
             2,
             {
                 "alphabetize": {
-                    "order": "asc",
+                    "order": "asc"
                 },
                 "groups": [
                     ["builtin", "external"],
