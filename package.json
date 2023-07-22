@@ -1,6 +1,6 @@
 {
     "name": "@rosinfo.tech/eslint-config-import",
-    "version": "0.0.2",
+    "version": "0.0.3",
     "access": "public",
     "main": "index.js",
     "publishConfig": {
@@ -19,7 +19,7 @@
         "rosinfotech"
     ],
     "dependencies": {
-        "eslint-plugin-import": "^2.25.2"
+        "eslint-plugin-import": "^2.27.5"
     },
     "peerDependencies": {
         "eslint": ">= 3"

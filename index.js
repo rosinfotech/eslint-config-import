@@ -5,7 +5,7 @@ module.exports = {
         "import/export": 2,
         "import/exports-last": 0,
         "import/extensions": 0,
-        "import/first": 0,
+        "import/first": 2,
         "import/group-exports": 0,
         "import/max-dependencies": 0,
         "import/named": 0,
@@ -47,7 +47,7 @@ module.exports = {
         "import/no-import-module-exports": 0,
         "import/no-internal-modules": 0,
         "import/no-mutable-exports": 2,
-        "import/no-named-as-default": 2,
+        "import/no-named-as-default": 0,
         "import/no-named-as-default-member": 2,
         "import/no-named-default": 0,
         "import/no-named-export": 0,
@@ -64,18 +64,19 @@ module.exports = {
         "import/order": [
             2,
             {
+                "alphabetize": {
+                    "order": "asc",
+                },
                 "groups": [
-                    "builtin",
-                    "external",
+                    ["builtin", "external"],
                     "internal",
-                    "unknown",
                     "parent",
                     "sibling",
+                    "type",
                     "index",
-                    "object",
-                    "type"
+                    "object"
                 ],
-                "newlines-between": "never",
+                "newlines-between": "always",
                 "pathGroups": [
                     {
                         "group": "builtin",
@@ -89,7 +90,7 @@ module.exports = {
                     }
                 ],
                 "pathGroupsExcludedImportTypes": [
-                    "builtin"
+                    "react"
                 ]
             }
         ],
