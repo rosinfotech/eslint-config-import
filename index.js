@@ -80,18 +80,15 @@ module.exports = {
                 "newlines-between": "never",
                 "pathGroups": [
                     {
-                        "group": "builtin",
-                        "pattern": "react",
-                        "position": "before"
-                    },
-                    {
                         "group": "external",
                         "pattern": "@**",
                         "position": "after"
                     }
                 ],
                 "pathGroupsExcludedImportTypes": [
-                    "react"
+                    "builtin",
+                    "external",
+                    "object"
                 ]
             }
         ],
