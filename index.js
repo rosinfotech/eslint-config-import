@@ -68,15 +68,16 @@ module.exports = {
                     "order": "asc"
                 },
                 "groups": [
-                    ["builtin", "external"],
+                    "builtin",
+                    "external",
                     "internal",
                     "parent",
                     "sibling",
-                    "type",
                     "index",
-                    "object"
+                    "object",
+                    "type"
                 ],
-                "newlines-between": "always",
+                "newlines-between": "never",
                 "pathGroups": [
                     {
                         "group": "builtin",
