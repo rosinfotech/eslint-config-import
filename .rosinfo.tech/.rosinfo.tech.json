@@ -30,7 +30,8 @@
                     "./package.json": "./npm/package.json"
                 }
             ]
-        ]
+        ],
+        "checkSum": "5413734a7628ecb6b8a57f781797dbdd"
     },
-    "version": "0.0.7"
+    "version": "0.0.8"
 }
